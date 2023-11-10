@@ -5,7 +5,7 @@
     "bscriptSalt" : 10,
     "jwt" : "qswer-hasw12_@",
     "db" : {
-      "uri" : "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.5",
+      "uri" : "mongodb+srv://marirajayt508:blog@cluster0.kstbdew.mongodb.net/?retryWrites=true&w=majority",
       "collections" : {
         "productDetails" : "userDetailsMoment",
         "momentDetails" : "momentDetails"
