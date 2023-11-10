@@ -1,0 +1,16 @@
+{
+   "app": {
+    "name" : "iWeb",
+    "env" : "development",
+    "bscriptSalt" : 10,
+    "jwt" : "qswer-hasw12_@",
+    "db" : {
+      "uri" : "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.5",
+      "collections" : {
+        "productDetails" : "userDetailsMoment",
+        "momentDetails" : "momentDetails"
+      },
+      "NODE_ENV" : "test"
+    }
+   }
+}
